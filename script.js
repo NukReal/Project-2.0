@@ -4,7 +4,7 @@ var weight = prompt("Enter your weight in kilos");
 
 var bodyWeightIndex = weight / (height * height);
 var groupNumber;
-
+console.log('"Whatever"')
 if(age >= 18 && age <= 25)
     {
         if( bodyWeightIndex < 17.5){
